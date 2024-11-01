@@ -4,9 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        lobster: ['"Lobster Two"', 'cursive'],
+        lobster: ['Lobster Two', 'cursive'],
+        quote: ['Roboto Slab', 'serif'],
       },
     },
   },
   plugins: [],
-}
+};

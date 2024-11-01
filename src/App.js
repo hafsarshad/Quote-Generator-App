@@ -6,7 +6,7 @@ import Navbar from './Components/Navbar';
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-purple-100 min-h-screen'>
       <Navbar />
       <Quote/>
     </div>
