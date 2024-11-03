@@ -50,8 +50,10 @@ const Quote = () => {
 
     return (
         <>
-         <div className=" mt-11  w-[90%] md:w-[60%] mx-auto">
-            <div className='bg-[#E2B2DF] font-quote text-3xl text-purple-700 w-[100%] h-full rounded-md '> {quote} </div>
+         <div className=" mt-11  w-[90%] md:w-[70%] mx-auto">
+         {/* <h1 className="font-lobster text-4xl text-purple-800 mt-10"> Quote Generator App</h1> */}
+         <h1 className='text-4xl  text-purple-600 font-quote ms-4'>Transform your mindset one quote at a time—discover and share the wisdom!</h1>
+            <div className='bg-[#E2B2DF] font-quote text-3xl text-purple-700 w-[100%] h-full mt-7 rounded-md '> {quote} </div>
             <div className='bg-[#E2B2DF] font-lobster text-purple-600 w-56 h-full mt-3 rounded-md ms-auto'> {author} </div>
 
             <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 justify-center mt-4 ">
@@ -59,9 +61,9 @@ const Quote = () => {
               <button  onClick={shareQuote}  className='00 bg-purple-500 text-white text-md rounded-2xl  mx-2 px-3 py-2'>Share Quote </button>
               <button   className='bg-purple-500 text-white text-md rounded-2xl  mx-2 px-3 py-2'>Previous Quote</button>
             </div>
-            <h1 className="font-lobster text-4xl text-purple-800 mt-10"> Quote Generator App</h1>
-            <h1 className='text-4xl  text-purple-600 font-quote ms-4'>Transform your mindset one quote at a time—discover and share the wisdom!</h1>
+           
         </div>
+       
       
         </>
       
