@@ -91,7 +91,7 @@ const markdownToHtml = (markdown) => {
       {renderResponse()}
 
       {error && (
-        <div style={{ color: 'red' }}>
+        <div style={{ color: 'Blue' }}>
           <h2>Error:</h2>
           <p>{error}</p>
         </div>
